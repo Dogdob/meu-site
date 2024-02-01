@@ -26,8 +26,8 @@ header{
     color: white;
     text-align: center;
 }
-.normal2{
-    background-color: black;
+section#img00{
+    background-color: white;
     color: white;
 }
 img{
@@ -58,6 +58,24 @@ img.imagem2{
     margin-top: -300px;
     margin-bottom: -30px;
 
+}
+.imagem1,p{
+    display: inline-block;
+}
+.imagem2,p{
+    display: inline-block;
+}
+.imagem3,p{
+    display: inline-block;
+}
+.imagem4,p{
+    display: inline-block;
+}
+.imagem5,p{
+    display: inline-block;
+}
+.imagem6,p{
+    display: inline-block;
 }
 img.imagem3{
     margin-top: -300px;
@@ -107,6 +125,9 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.555);
     text-shadow: 1px 1px 0px black;
 }
+section#img00{
+    background-image: url('../imagens/eu.jpeg');
+}
 section#img01{
     background-image: url('../imagens/bailee.jpeg');
     background-position: right center;
@@ -118,6 +139,12 @@ section#img02{
 section#img03{
     background-image: url('../imagens/klara.jpeg');
 
+}
+section#img04{
+    background-image: url('../imagens/cebolinha.jpeg');
+}
+section#img05{
+    background-image: url(../imagens/cell\ vs\ gohan.jpeg);
 }
 footer{
     background-color: black;
